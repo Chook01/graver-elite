@@ -7,6 +7,9 @@ import { HeaderComponent } from './components/shared/header/header.component';
 import { FooterComponent } from './components/shared/footer/footer.component';
 import { LandingPageComponent } from './components/landing-page/landing-page.component';
 
+declare var $: any;
+console.log(`jQuery version: ${$.fn.jquery}`);
+
 @NgModule({
   declarations: [
     AppComponent,
