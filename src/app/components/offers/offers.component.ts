@@ -11,7 +11,6 @@ export class OffersComponent implements OnInit {
   constructor(public apiService: ApiService) { }
 
   ngOnInit(): void {
-    console.log(this.apiService.offers);
     if(!this.apiService.offers){
       this.apiService.getData();
     }

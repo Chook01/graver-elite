@@ -1,0 +1,13 @@
+<div class="card effect-pop">
+    <div class="card-image">
+        <img class="card-img-top" style="height: 100%;" [src]="offer.image" [hidden]="!this.isLoaded" (load)="this.isLoaded = true;">
+        <ngx-skeleton-loader [count]="1" [theme]="{'width': '100%', 'height': '100%'}" *ngIf="!this.isLoaded"></ngx-skeleton-loader>
+    </div>
+    <div class="card-body">
+        <h5 class="card-title">{{offer.title}}</h5>
+        <p class="card-text">{{offer.desc}}</p>
+    </div>
+    <div class="card-footer">
+        <button class="btn btn-order text-dark"><span class="icon-order mr-2 text-accent"></span>Naruči</button>
+    </div>
+</div>
