@@ -1,5 +1,33 @@
 @import '~bootstrap/dist/css/bootstrap.min.css';
+@import 'assets/icons/style.css';
 
-body {
+$color-accent: #2640b9;
+
+body,html {
     font-family: 'Rubik', sans-serif;
+    scroll-behavior: smooth;
+}
+
+.btn-accent {
+    background-color: $color-accent;
+    color: white;
+
+    &:hover {
+        color: white;
+    }
+}
+
+.text-accent {
+    color: $color-accent;
+}
+
+.btn-rounded {
+    border-radius: 50px;
+}
+
+.effect-pop:hover {
+    transform: translateY(-1px);
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.3);
+    transition-property: all;
+    transition-duration: 0.2s;
 }
