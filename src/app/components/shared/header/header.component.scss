@@ -2,3 +2,14 @@
     font-weight: bold;
     font-size: 1.7rem;
 }
+
+.navbar-scrolled {
+    filter: invert(2%);
+    transition-property: filter;
+    transition-duration: 0.3s;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+}
+
+.navbar-light {
+    background-color: white;
+}

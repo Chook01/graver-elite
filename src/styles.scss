@@ -31,3 +31,9 @@ body,html {
     transition-property: all;
     transition-duration: 0.2s;
 }
+
+.accent-hover:hover {
+    color: $color-accent!important;
+    transition-property: color;
+    transition-duration: 0.2s;
+}

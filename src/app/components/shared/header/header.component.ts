@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, HostListener, OnInit } from '@angular/core';
 
 @Component({
   selector: 'ge-header',
@@ -8,6 +8,13 @@ import { Component, OnInit } from '@angular/core';
 export class HeaderComponent implements OnInit {
 
   constructor() { }
+
+  isScrolled: boolean = false;
+
+  @HostListener("window:scroll")
+  scrollEvent() {
+      window.pageYOffset >= 30 ? (this.isScrolled = true) : (this.isScrolled = false);
+  }
 
   ngOnInit(): void {
   }
