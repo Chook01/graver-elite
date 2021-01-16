@@ -11,9 +11,13 @@ export class ApiService {
   offers: any;
 
   public getData() {
-    this.http.get('assets/database.json').subscribe(data => {
+    this.http.get('assets/offers.json').subscribe(data => {
       this.offers = data;
     });
+  }
+
+  public getStatic(name: string) {
+    return this.http.get('assets/static/' + name + '.json');
   }
 
 }

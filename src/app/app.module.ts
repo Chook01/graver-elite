@@ -8,6 +8,7 @@ import { HeaderComponent } from './components/shared/header/header.component';
 import { FooterComponent } from './components/shared/footer/footer.component';
 import { LandingPageComponent } from './components/landing-page/landing-page.component';
 import { OffersComponent } from './components/offers/offers.component';
+import { StaticComponent } from './components/static/static.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { OffersComponent } from './components/offers/offers.component';
     HeaderComponent,
     FooterComponent,
     LandingPageComponent,
-    OffersComponent
+    OffersComponent,
+    StaticComponent
   ],
   imports: [
     BrowserModule,
