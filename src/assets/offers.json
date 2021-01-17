@@ -1,7 +1,52 @@
 [
     {
-        "name": "Daska za rezanje",
-        "image": "https://i.imgur.com/vqWaxCw.jpg",
-        "desc": "Izaberite između MDF i punog drveta u formatima A3, A4 te A5. Moguća je i veličina po želji."
+        "name": "Citat",
+        "image": "https://i.imgur.com/SmUQ4DH.jpg",
+        "desc": "Možete birati između obične i blago zapaljene verzije."
+    },
+    {
+        "name": "Snjegović s imenom",
+        "image": "https://i.imgur.com/Lp5DQ6A.jpg",
+        "desc": "Samostojeći drveni snjegović sa imenom po želji."
+    },
+    {
+        "name": "Ukrasna kuglica s imenom",
+        "image": "https://i.imgur.com/IrEVP7F.jpg",
+        "desc": "Unikatni nakit za jelku s imenom po želji."
+    },
+    {
+        "name": "Daska za rezanje sa slikom",
+        "image": "https://i.imgur.com/Txzqo0S.jpg",
+        "desc": "Daska za rezanje u obliku pršuta sa tekstom ili slikom po želji."
+    },
+    {
+        "name": "Kutija slatkiša sa citatima",
+        "image": "https://i.imgur.com/lpGsM9m.jpg",
+        "desc": "Kutija slatkiša sa tekstom po želji. Moguće je naručiti veći broj podloga sa tekstom."
+    },
+    {
+        "name": "Slika na punom drvetu",
+        "image": "https://i.imgur.com/P14erHp.jpg",
+        "desc": "Nudimo graviranje slike ili teksta na punom drvetu ili okruglom komadu stabla."
+    },
+    {
+        "name": "Kuhače sa tekstom",
+        "image": "https://i.imgur.com/Ldm7Kwi.jpg",
+        "desc": "Više oblika kuhača sa tekstom po želji."
+    },
+    {
+        "name": "Kutija za naočale",
+        "image": "https://i.imgur.com/Da16uiX.jpg",
+        "desc": "Drvena kutija za spremanje raznih stvari poput naočala sa ikonom po želji."
+    },
+    {
+        "name": "Jelen s imenom",
+        "image": "https://i.imgur.com/7joLWdz.jpg",
+        "desc": "Samostojeći jelen Rudolf s imenom po želji. Moguće verzije su s točkicama i bez."
+    },
+    {
+        "name": "Slika na MDF drvetu",
+        "image": "https://i.imgur.com/LUngD4S.jpg",
+        "desc": "Graviranje slike i/ili teksta po želji na MDF (Medijapan) drvetu. Dimenzije su A3, A4 te A5."
     }
 ]

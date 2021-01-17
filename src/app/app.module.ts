@@ -13,6 +13,8 @@ import { OffersComponent } from './components/offers/offers.component';
 import { StaticComponent } from './components/static/static.component';
 import { CardComponent } from './components/shared/card/card.component';
 import { LoadingComponent } from './components/loading/loading.component';
+import { ErrorComponent } from './components/error/error.component';
+import { OrderComponent } from './components/order/order.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +25,9 @@ import { LoadingComponent } from './components/loading/loading.component';
     OffersComponent,
     StaticComponent,
     CardComponent,
-    LoadingComponent
+    LoadingComponent,
+    ErrorComponent,
+    OrderComponent
   ],
   imports: [
     BrowserModule,
