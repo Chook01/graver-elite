@@ -12,6 +12,7 @@ import { LandingPageComponent } from './components/landing-page/landing-page.com
 import { OffersComponent } from './components/offers/offers.component';
 import { StaticComponent } from './components/static/static.component';
 import { CardComponent } from './components/shared/card/card.component';
+import { LoadingComponent } from './components/loading/loading.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { CardComponent } from './components/shared/card/card.component';
     LandingPageComponent,
     OffersComponent,
     StaticComponent,
-    CardComponent
+    CardComponent,
+    LoadingComponent
   ],
   imports: [
     BrowserModule,

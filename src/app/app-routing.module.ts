@@ -7,11 +7,14 @@ import { StaticComponent } from './components/static/static.component';
 const routes: Routes = [
   { path: '', component: LandingPageComponent },
   { path: 'ponuda', component: OffersComponent },
-  { path: 'page/:static_page', component: StaticComponent}
+  { path: 'page/:static_page', component: StaticComponent }
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes, {scrollPositionRestoration: 'enabled'})],
+  imports: [RouterModule.forRoot(routes, {
+    scrollPositionRestoration: 'enabled', // or 'top'
+    anchorScrolling: 'enabled',
+  })],
   exports: [RouterModule]
 })
 export class AppRoutingModule { }
